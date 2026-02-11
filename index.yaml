@@ -3,11 +3,22 @@ entries:
   redis-minimal:
   - apiVersion: v2
     appVersion: "7.0"
-    created: "2026-02-11T16:02:56.488861956Z"
+    created: "2026-02-11T16:09:47.876552669Z"
     description: A minimal Redis deployment
     digest: cefec5616eef272eb2f58c263ac8fc167464ac9cfc098db5eeb4aefb1e48325f
     name: redis-minimal
     urls:
     - https://sgmoncur.github.io/demo-helm-charts/redis-minimal-0.1.0.tgz
     version: 0.1.0
-generated: "2026-02-11T16:02:56.488726703Z"
+  spring-boot-redis-demo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-02-11T16:09:47.876866183Z"
+    description: A Helm chart for Kubernetes
+    digest: ede72192b5299924cb4f01c13524e2dc443b26068858030e4b17018a8e531b8f
+    name: spring-boot-redis-demo
+    type: application
+    urls:
+    - https://sgmoncur.github.io/demo-helm-charts/spring-boot-redis-demo-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-02-11T16:09:47.876388462Z"
