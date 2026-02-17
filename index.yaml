@@ -3,7 +3,7 @@ entries:
   currency-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-02-14T19:09:45.714287Z"
+    created: "2026-02-17T18:53:45.300467984Z"
     dependencies:
     - name: redis-minimal
       repository: https://sgmoncur.github.io/demo-helm-charts
@@ -13,11 +13,11 @@ entries:
     name: currency-service
     type: application
     urls:
-    - currency-service-0.3.0.tgz
+    - https://sgmoncur.github.io/demo-helm-charts/currency-service-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-02-14T19:09:45.713079Z"
+    created: "2026-02-17T18:53:45.299792355Z"
     dependencies:
     - name: redis-minimal
       repository: https://sgmoncur.github.io/demo-helm-charts
@@ -27,11 +27,11 @@ entries:
     name: currency-service
     type: application
     urls:
-    - currency-service-0.2.0.tgz
+    - https://sgmoncur.github.io/demo-helm-charts/currency-service-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-02-14T19:09:45.711038Z"
+    created: "2026-02-17T18:53:45.29828743Z"
     dependencies:
     - name: redis-minimal
       repository: https://sgmoncur.github.io/demo-helm-charts
@@ -41,22 +41,36 @@ entries:
     name: currency-service
     type: application
     urls:
-    - currency-service-0.1.0.tgz
+    - https://sgmoncur.github.io/demo-helm-charts/currency-service-0.1.0.tgz
     version: 0.1.0
   redis-minimal:
   - apiVersion: v2
     appVersion: "7.0"
-    created: "2026-02-14T19:09:45.714504Z"
+    created: "2026-02-17T18:53:45.300544807Z"
     description: A minimal Redis deployment
     digest: cefec5616eef272eb2f58c263ac8fc167464ac9cfc098db5eeb4aefb1e48325f
     name: redis-minimal
     urls:
-    - redis-minimal-0.1.0.tgz
+    - https://sgmoncur.github.io/demo-helm-charts/redis-minimal-0.1.0.tgz
     version: 0.1.0
   spring-boot-redis-demo:
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2026-02-14T19:09:45.715985Z"
+    created: "2026-02-17T18:53:45.301722522Z"
+    dependencies:
+    - name: redis-minimal
+      repository: https://sgmoncur.github.io/demo-helm-charts
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: a983fcdbd5bdc6218019b75c213a9a9c56f19cafaef94f1c646cf940e641161f
+    name: spring-boot-redis-demo
+    type: application
+    urls:
+    - https://sgmoncur.github.io/demo-helm-charts/spring-boot-redis-demo-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 0.0.4
+    created: "2026-02-17T18:53:45.301397897Z"
     dependencies:
     - name: redis-minimal
       repository: https://sgmoncur.github.io/demo-helm-charts
@@ -66,11 +80,11 @@ entries:
     name: spring-boot-redis-demo
     type: application
     urls:
-    - spring-boot-redis-demo-0.3.0.tgz
+    - https://sgmoncur.github.io/demo-helm-charts/spring-boot-redis-demo-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-02-14T19:09:45.715492Z"
+    created: "2026-02-17T18:53:45.301099882Z"
     dependencies:
     - name: redis-minimal
       repository: https://sgmoncur.github.io/demo-helm-charts
@@ -80,16 +94,16 @@ entries:
     name: spring-boot-redis-demo
     type: application
     urls:
-    - spring-boot-redis-demo-0.2.0.tgz
+    - https://sgmoncur.github.io/demo-helm-charts/spring-boot-redis-demo-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-02-14T19:09:45.71495Z"
+    created: "2026-02-17T18:53:45.300787309Z"
     description: A Helm chart for Kubernetes
     digest: ede72192b5299924cb4f01c13524e2dc443b26068858030e4b17018a8e531b8f
     name: spring-boot-redis-demo
     type: application
     urls:
-    - spring-boot-redis-demo-0.1.0.tgz
+    - https://sgmoncur.github.io/demo-helm-charts/spring-boot-redis-demo-0.1.0.tgz
     version: 0.1.0
-generated: "2026-02-14T19:09:45.709635Z"
+generated: "2026-02-17T18:53:45.297023875Z"
